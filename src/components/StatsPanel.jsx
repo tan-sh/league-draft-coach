@@ -3,8 +3,53 @@ import CounterPicks from './CounterPicks';
 import './StatsPanel.css';
 
 const StatsPanel = ({ enemyTeam }) => {
+  // Format champion name to match our data structure
+  const formatChampionName = (name) => {
+    // Special cases for champion names in our data structure
+    const specialCases = {
+      'MonkeyKing': 'Wukong',
+      'BelVeth': 'Belveth',
+      'KaiSa': 'Kaisa',
+      'KhaZix': 'Khazix',
+      'KogMaw': 'Kogmaw',
+      'RekSai': 'Reksai',
+      'VelKoz': 'Velkoz',
+      'DrMundo': 'Dr. Mundo',
+      'JarvanIV': 'Jarvan IV',
+      'AurelionSol': 'Aurelion Sol',
+      'TahmKench': 'Tahm Kench',
+      'TwistedFate': 'Twisted Fate',
+      'XinZhao': 'Xin Zhao',
+      'MasterYi': 'Master Yi',
+      'MissFortune': 'Miss Fortune',
+      'LeeSin': 'Lee Sin',
+      'LeBlanc': 'LeBlanc'
+    };
+
+    // First try direct lookup in special cases
+    if (specialCases[name]) {
+      return specialCases[name];
+    }
+
+    // If not found in special cases, try to find a matching special case
+    const matchingCase = Object.entries(specialCases).find(([key, value]) => 
+      value.toLowerCase() === name.toLowerCase()
+    );
+
+    if (matchingCase) {
+      return matchingCase[1];
+    }
+
+    return name;
+  };
+
   const validEnemyTeam = Array.isArray(enemyTeam) 
-    ? enemyTeam.filter(pick => pick && typeof pick === 'object' && pick.champion)
+    ? enemyTeam
+        .filter(pick => pick && typeof pick === 'object' && pick.champion)
+        .map(pick => ({
+          ...pick,
+          champion: formatChampionName(pick.champion)
+        }))
     : [];
 
   return (

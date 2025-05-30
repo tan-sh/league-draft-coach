@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import BlueTeamDraft from './BlueTeamDraft';
 import ChampionSelector from './ChampionSelector';
 import RedTeamDraft from './RedTeamDraft';
@@ -8,6 +8,11 @@ const TopSection = ({ champions, onTeamUpdate }) => {
   const [redPicks, setRedPicks] = useState([]);
   const [currentTeam, setCurrentTeam] = useState('blue');
   const [selectedChampion, setSelectedChampion] = useState(null);
+
+  // Update parent component when teams change
+  useEffect(() => {
+    onTeamUpdate(bluePicks, redPicks);
+  }, [bluePicks, redPicks, onTeamUpdate]);
 
   // Define the pick order: 1=blue, 2=red
   const pickOrder = [1, 2, 2, 1, 1, 2, 2, 1, 1, 2];

@@ -58,12 +58,25 @@ const App = () => {
 
     return redTeamPicks
       .filter(champion => champion !== null && champion !== undefined)
-      .map(champion => ({
-        champion: Object.entries(specialCases).find(
-          ([key, value]) => key === champion
-        )?.[1] || champion,
-        role: 'unknown'
-      }));
+      .map(champion => {
+        // First try direct lookup in special cases
+        if (specialCases[champion]) {
+          return {
+            champion: specialCases[champion],
+            role: 'unknown'
+          };
+        }
+
+        // If not found, try to find a matching special case
+        const matchingCase = Object.entries(specialCases).find(([key, value]) => 
+          value.toLowerCase() === champion.toLowerCase()
+        );
+
+        return {
+          champion: matchingCase ? matchingCase[1] : champion,
+          role: 'unknown'
+        };
+      });
   };
 
   return (
