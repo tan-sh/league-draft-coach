@@ -1,0 +1,646 @@
+{
+  "Aatrox": {
+    "counters": ["Fiora", "Jax", "Malphite", "Quinn", "Pantheon"],
+    "description": "Champions with high mobility or strong poke can effectively counter Aatrox"
+  },
+  "Ahri": {
+    "counters": ["Kassadin", "Fizz", "LeBlanc", "Yasuo", "Zed"],
+    "description": "Champions with high magic resistance or gap closers counter Ahri's skillshot-based kit"
+  },
+  "Akali": {
+    "counters": ["Galio", "Diana", "Malzahar", "Lissandra", "Lee Sin"],
+    "description": "Champions with point-and-click CC or reveal mechanics counter Akali's stealth"
+  },
+  "Alistar": {
+    "counters": ["Morgana", "Janna", "Vayne", "Zyra", "Brand"],
+    "description": "Champions with disengage or percent health damage counter Alistar's engage potential"
+  },
+  "Amumu": {
+    "counters": ["Lee Sin", "Shyvana", "Master Yi", "Olaf", "Morgana"],
+    "description": "Champions with strong early game or CC immunity counter Amumu's weak early game"
+  },
+  "Anivia": {
+    "counters": ["Kassadin", "Fizz", "LeBlanc", "Katarina", "Zed"],
+    "description": "Champions with high mobility can dodge Anivia's skillshots and punish her low mobility"
+  },
+  "Annie": {
+    "counters": ["Lux", "Xerath", "Velkoz", "Ziggs", "Brand"],
+    "description": "Long-range mages can harass Annie safely and avoid her burst combo"
+  },
+  "Aphelios": {
+    "counters": ["Draven", "Lucian", "Tristana", "Caitlyn", "Samira"],
+    "description": "Champions with strong early game pressure can punish Aphelios before he gets his weapon combinations"
+  },
+  "Ashe": {
+    "counters": ["Lucian", "Draven", "Tristana", "Vayne", "Yasuo"],
+    "description": "Mobile ADCs can dodge Ashe's ultimate and punish her lack of mobility"
+  },
+  "Aurelion Sol": {
+    "counters": ["Kassadin", "Fizz", "Katarina", "Zed", "Ahri"],
+    "description": "Champions with gap closers can get inside Aurelion Sol's stars and burst him down"
+  },
+  "Azir": {
+    "counters": ["Xerath", "Ziggs", "Velkoz", "Lux", "Syndra"],
+    "description": "Long-range mages can outrange and harass Azir before he scales"
+  },
+  "Bard": {
+    "counters": ["Leona", "Blitzcrank", "Nautilus", "Thresh", "Pyke"],
+    "description": "Hard engage supports can punish Bard's roaming playstyle"
+  },
+  "Bel'Veth": {
+    "counters": ["Rammus", "Vi", "Lee Sin", "Kha'Zix", "Elise"],
+    "description": "Champions with strong early game and CC can shut down Bel'Veth's scaling"
+  },
+  "Blitzcrank": {
+    "counters": ["Morgana", "Sivir", "Ezreal", "Alistar", "Leona"],
+    "description": "Champions with spell shields or strong counter-engage can punish Blitzcrank's hooks"
+  },
+  "Brand": {
+    "counters": ["Kassadin", "Fizz", "Zed", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins can dodge Brand's skillshots and burst him down"
+  },
+  "Braum": {
+    "counters": ["Morgana", "Karma", "Zyra", "Brand", "Vel'Koz"],
+    "description": "Poke supports can wear down Braum's shield and harass his ADC"
+  },
+  "Caitlyn": {
+    "counters": ["Sivir", "Tristana", "Jinx", "Draven", "Twitch"],
+    "description": "Champions that can outscale Caitlyn's early game advantage"
+  },
+  "Camille": {
+    "counters": ["Jax", "Poppy", "Renekton", "Darius", "Fiora"],
+    "description": "Champions with strong early game or anti-mobility tools counter Camille"
+  },
+  "Cassiopeia": {
+    "counters": ["Kassadin", "Fizz", "Katarina", "Zed", "LeBlanc"],
+    "description": "Mobile assassins can dodge Cassiopeia's Twin Fang and burst her down"
+  },
+  "Cho'Gath": {
+    "counters": ["Vayne", "Fiora", "Gnar", "Kayle", "Mordekaiser"],
+    "description": "Champions with percent health damage or kiting ability counter Cho'Gath"
+  },
+  "Corki": {
+    "counters": ["Lucian", "Tristana", "Draven", "Caitlyn", "Jinx"],
+    "description": "Strong early game ADCs can punish Corki's weak early game"
+  },
+  "Darius": {
+    "counters": ["Quinn", "Vayne", "Kayle", "Gnar", "Teemo"],
+    "description": "Ranged champions can kite Darius and prevent him from stacking his passive"
+  },
+  "Diana": {
+    "counters": ["Galio", "Lissandra", "Kassadin", "Pantheon", "Akshan"],
+    "description": "Champions with strong early game and CC can prevent Diana from reaching her power spikes"
+  },
+  "Dr. Mundo": {
+    "counters": ["Vayne", "Kog'Maw", "Kayle", "Gwen", "Fiora"],
+    "description": "Champions with percent health damage and healing reduction counter Mundo's tankiness"
+  },
+  "Draven": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Thresh", "Leona"],
+    "description": "Champions with long-range poke or hard CC can shut down Draven's aggressive playstyle"
+  },
+  "Ekko": {
+    "counters": ["Kassadin", "Lissandra", "Galio", "Pantheon", "Viktor"],
+    "description": "Champions with point-and-click CC or strong early game can prevent Ekko from scaling"
+  },
+  "Elise": {
+    "counters": ["Rek'Sai", "Graves", "Kha'Zix", "Lee Sin", "Udyr"],
+    "description": "Champions who can invade early and duel well counter Elise's early game pressure"
+  },
+  "Evelynn": {
+    "counters": ["Lee Sin", "Rek'Sai", "Rengar", "Kha'Zix", "Shaco"],
+    "description": "Champions with early game pressure and stealth detection counter Evelynn's invisibility"
+  },
+  "Ezreal": {
+    "counters": ["Draven", "Lucian", "Tristana", "Twitch", "Sivir"],
+    "description": "Champions with strong all-in potential can punish Ezreal's weak early game"
+  },
+  "Fiddlesticks": {
+    "counters": ["Lee Sin", "Shaco", "Kha'Zix", "Graves", "Xin Zhao"],
+    "description": "Champions with strong invade potential can shut down Fiddlesticks' early clear"
+  },
+  "Fiora": {
+    "counters": ["Malphite", "Poppy", "Kennen", "Quinn", "Teemo"],
+    "description": "Champions with ranged harass and CC can prevent Fiora from engaging"
+  },
+  "Fizz": {
+    "counters": ["Lissandra", "Diana", "Galio", "Vladimir", "Kassadin"],
+    "description": "Champions with point-and-click CC and sustain can survive Fizz's burst"
+  },
+  "Galio": {
+    "counters": ["Sylas", "Morgana", "Vel'Koz", "Swain", "Brand"],
+    "description": "AP champions with sustained damage can wear down Galio's magic resistance"
+  },
+  "Gangplank": {
+    "counters": ["Irelia", "Riven", "Yone", "Camille", "Akali"],
+    "description": "Champions with gap closers can punish Gangplank's barrel setup"
+  },
+  "Garen": {
+    "counters": ["Vayne", "Quinn", "Teemo", "Kayle", "Darius"],
+    "description": "Ranged champions and strong duelists can kite and outrade Garen"
+  },
+  "Gnar": {
+    "counters": ["Irelia", "Camille", "Jax", "Yasuo", "Malphite"],
+    "description": "Champions who can engage on Mini Gnar and avoid Mega Gnar's CC"
+  },
+  "Gragas": {
+    "counters": ["Xin Zhao", "Udyr", "Lee Sin", "Trundle", "Vi"],
+    "description": "Champions with strong early game dueling can invade and shut down Gragas"
+  },
+  "Graves": {
+    "counters": ["Kindred", "Kha'Zix", "Elise", "Lee Sin", "Nidalee"],
+    "description": "Champions who can kite Graves and avoid his burst damage"
+  },
+  "Gwen": {
+    "counters": ["Tryndamere", "Jax", "Kayle", "Quinn", "Teemo"],
+    "description": "Champions who can either burst her down or outscale her in side lanes"
+  },
+  "Hecarim": {
+    "counters": ["Rammus", "Poppy", "Trundle", "Udyr", "Vi"],
+    "description": "Champions who can disrupt Hecarim's engage and match his clear speed"
+  },
+  "Heimerdinger": {
+    "counters": ["Syndra", "Ziggs", "Xerath", "Vel'Koz", "Brand"],
+    "description": "Long-range mages who can destroy turrets from safety"
+  },
+  "Illaoi": {
+    "counters": ["Kayle", "Vayne", "Quinn", "Teemo", "Gangplank"],
+    "description": "Mobile champions who can dodge tentacles and kite effectively"
+  },
+  "Irelia": {
+    "counters": ["Tryndamere", "Jax", "Poppy", "Garen", "Volibear"],
+    "description": "Champions with point-and-click CC and strong dueling potential"
+  },
+  "Ivern": {
+    "counters": ["Lee Sin", "Graves", "Nidalee", "Elise", "Kha'Zix"],
+    "description": "Aggressive early game junglers who can invade and duel"
+  },
+  "Janna": {
+    "counters": ["Nautilus", "Leona", "Blitzcrank", "Thresh", "Pyke"],
+    "description": "Engage supports who can lock down Janna before she can disengage"
+  },
+  "Jarvan IV": {
+    "counters": ["Lee Sin", "Xin Zhao", "Vi", "Graves", "Trundle"],
+    "description": "Strong early game duelists who can counter-gank effectively"
+  },
+  "Jax": {
+    "counters": ["Malphite", "Quinn", "Teemo", "Jayce", "Kennen"],
+    "description": "Ranged champions who can harass and kite Jax early game"
+  },
+  "Jayce": {
+    "counters": ["Malphite", "Irelia", "Yone", "Camille", "Wukong"],
+    "description": "Champions who can survive poke and all-in effectively"
+  },
+  "Jhin": {
+    "counters": ["Draven", "Samira", "Tristana", "Twitch", "Vayne"],
+    "description": "Mobile ADCs who can dodge abilities and punish reload timing"
+  },
+  "Jinx": {
+    "counters": ["Draven", "Samira", "Lucian", "Tristana", "Kai'Sa"],
+    "description": "Champions with strong early game who can punish Jinx's weak laning"
+  },
+  "K'Sante": {
+    "counters": ["Fiora", "Darius", "Illaoi", "Mordekaiser", "Gwen"],
+    "description": "Champions who can break through his defenses and sustain through fights"
+  },
+  "Kai'Sa": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Jhin", "Xerath"],
+    "description": "Long-range champions who can poke and zone Kai'Sa"
+  },
+  "Kalista": {
+    "counters": ["Ashe", "Draven", "Caitlyn", "Tristana", "Varus"],
+    "description": "Champions who can slow Kalista and reduce her mobility"
+  },
+  "Karma": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can lock down Karma through her shield"
+  },
+  "Karthus": {
+    "counters": ["Lee Sin", "Nidalee", "Graves", "Kindred", "Elise"],
+    "description": "Aggressive junglers who can invade and punish weak early game"
+  },
+  "Kassadin": {
+    "counters": ["Pantheon", "Lucian", "Tristana", "Talon", "Zed"],
+    "description": "AD champions who can punish Kassadin's weak early game"
+  },
+  "Katarina": {
+    "counters": ["Galio", "Diana", "Lissandra", "Kassadin", "Viktor"],
+    "description": "Champions with point-and-click CC who can stop Katarina's ultimate"
+  },
+  "Kayle": {
+    "counters": ["Irelia", "Riven", "Camille", "Jax", "Yone"],
+    "description": "Champions who can all-in and punish Kayle's weak early game"
+  },
+  "Kayn": {
+    "counters": ["Lee Sin", "Xin Zhao", "Graves", "Kindred", "Kha'Zix"],
+    "description": "Strong early game junglers who can invade and delay form transformation"
+  },
+  "Kennen": {
+    "counters": ["Irelia", "Yasuo", "Vladimir", "Kassadin", "Galio"],
+    "description": "Champions who can survive burst and all-in after Kennen uses abilities"
+  },
+  "Kha'Zix": {
+    "counters": ["Rammus", "Warwick", "Udyr", "Xin Zhao", "Vi"],
+    "description": "Tanky champions who can survive burst and reveal Kha'Zix's stealth"
+  },
+  "Kindred": {
+    "counters": ["Kha'Zix", "Rengar", "Lee Sin", "Graves", "Nidalee"],
+    "description": "Champions who can invade early and contest mark spawns"
+  },
+  "Kled": {
+    "counters": ["Fiora", "Jax", "Camille", "Irelia", "Malphite"],
+    "description": "Champions who can disengage when dismounted and re-engage effectively"
+  },
+  "Kog'Maw": {
+    "counters": ["Draven", "Lucian", "Tristana", "Samira", "Kai'Sa"],
+    "description": "Champions with strong all-in potential who can punish Kog'Maw's lack of mobility"
+  },
+  "LeBlanc": {
+    "counters": ["Galio", "Kassadin", "Lissandra", "Malzahar", "Vladimir"],
+    "description": "Champions with point-and-click CC or who can survive burst combo"
+  },
+  "Lee Sin": {
+    "counters": ["Udyr", "Warwick", "Trundle", "Olaf", "Rammus"],
+    "description": "Duelists who can survive Lee Sin's burst and win extended fights"
+  },
+  "Leona": {
+    "counters": ["Morgana", "Alistar", "Janna", "Lulu", "Thresh"],
+    "description": "Champions who can disengage or protect their ADC from Leona's engage"
+  },
+  "Lillia": {
+    "counters": ["Kha'Zix", "Elise", "Lee Sin", "Graves", "Nidalee"],
+    "description": "Champions who can invade early and punish Lillia's weak dueling"
+  },
+  "Lissandra": {
+    "counters": ["Viktor", "Kassadin", "Vladimir", "Malzahar", "Anivia"],
+    "description": "Champions who can outrange or outsustain Lissandra's damage"
+  },
+  "Lucian": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Jhin", "Draven"],
+    "description": "Champions who can outrange and poke Lucian before he can engage"
+  },
+  "Lulu": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can lock down Lulu before she can use her utility"
+  },
+  "Lux": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge skillshots and close the gap"
+  },
+  "Malphite": {
+    "counters": ["Mordekaiser", "Darius", "Garen", "Illaoi", "Sylas"],
+    "description": "Champions who can sustain through poke and win extended trades"
+  },
+  "Malzahar": {
+    "counters": ["Viktor", "Xerath", "Ziggs", "Vel'Koz", "Lux"],
+    "description": "Long-range mages who can clear voidlings and avoid suppression"
+  },
+  "Maokai": {
+    "counters": ["Brand", "Zyra", "Morgana", "Vel'Koz", "Xerath"],
+    "description": "Poke champions who can harass from range and avoid saplings"
+  },
+  "Master Yi": {
+    "counters": ["Rammus", "Jax", "Vi", "Warwick", "Udyr"],
+    "description": "Champions with point-and-click CC and tankiness"
+  },
+  "Miss Fortune": {
+    "counters": ["Draven", "Samira", "Yasuo", "Sivir", "Vayne"],
+    "description": "Mobile ADCs who can dodge Make It Rain and Bullet Time"
+  },
+  "Mordekaiser": {
+    "counters": ["Fiora", "Gangplank", "Jax", "Vayne", "Kayle"],
+    "description": "Champions who can kite or QSS his ultimate"
+  },
+  "Morgana": {
+    "counters": ["Zyra", "Brand", "Vel'Koz", "Xerath", "Karma"],
+    "description": "Poke champions who can harass through Black Shield"
+  },
+  "Nami": {
+    "counters": ["Leona", "Nautilus", "Blitzcrank", "Pyke", "Thresh"],
+    "description": "Engage supports who can lock down Nami before she can disengage"
+  },
+  "Nasus": {
+    "counters": ["Teemo", "Darius", "Illaoi", "Mordekaiser", "Garen"],
+    "description": "Champions who can deny stacks and punish weak early game"
+  },
+  "Nautilus": {
+    "counters": ["Morgana", "Alistar", "Janna", "Lulu", "Thresh"],
+    "description": "Champions who can disengage or protect their ADC from hooks"
+  },
+  "Neeko": {
+    "counters": ["Kassadin", "Fizz", "Yasuo", "Zed", "LeBlanc"],
+    "description": "Mobile champions who can dodge her abilities and reveal her disguise"
+  },
+  "Nidalee": {
+    "counters": ["Lee Sin", "Kha'Zix", "Graves", "Elise", "Rengar"],
+    "description": "Strong early game junglers who can invade and duel"
+  },
+  "Nilah": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Jhin", "Xerath"],
+    "description": "Long-range champions who can poke and zone Nilah"
+  },
+  "Nocturne": {
+    "counters": ["Rammus", "Udyr", "Warwick", "Xin Zhao", "Vi"],
+    "description": "Duelists who can survive burst and win extended fights"
+  },
+  "Nunu": {
+    "counters": ["Olaf", "Trundle", "Vi", "Warwick", "Xin Zhao"],
+    "description": "Champions who can duel Nunu and interrupt Snowball"
+  },
+  "Olaf": {
+    "counters": ["Vayne", "Kalista", "Ashe", "Kayle", "Quinn"],
+    "description": "Champions who can kite Olaf during Ragnarok"
+  },
+  "Orianna": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge Command: Shockwave"
+  },
+  "Ornn": {
+    "counters": ["Mordekaiser", "Darius", "Illaoi", "Fiora", "Vayne"],
+    "description": "Champions who can dodge Ornn's CC and deal percent health damage"
+  },
+  "Pantheon": {
+    "counters": ["Malphite", "Ornn", "Maokai", "Poppy", "Shen"],
+    "description": "Tanks who can survive burst and outscale"
+  },
+  "Poppy": {
+    "counters": ["Mordekaiser", "Darius", "Garen", "Illaoi", "Urgot"],
+    "description": "Champions without dashes who can win extended trades"
+  },
+  "Pyke": {
+    "counters": ["Nautilus", "Leona", "Alistar", "Thresh", "Rell"],
+    "description": "Tanky supports who can survive execute and CC Pyke"
+  },
+  "Qiyana": {
+    "counters": ["Diana", "Galio", "Lissandra", "Malzahar", "Viktor"],
+    "description": "Champions with point-and-click CC who can survive burst"
+  },
+  "Quinn": {
+    "counters": ["Malphite", "Irelia", "Camille", "Jax", "Wukong"],
+    "description": "Champions who can close the gap and CC Quinn"
+  },
+  "Rakan": {
+    "counters": ["Thresh", "Morgana", "Janna", "Lulu", "Zyra"],
+    "description": "Champions who can interrupt Rakan's engage"
+  },
+  "Rammus": {
+    "counters": ["Morgana", "Trundle", "Vayne", "Vex", "Brand"],
+    "description": "Champions with magic damage or anti-tank abilities"
+  },
+  "Rek'Sai": {
+    "counters": ["Kha'Zix", "Lee Sin", "Graves", "Elise", "Nidalee"],
+    "description": "Champions who can invade and track Rek'Sai's tunnels"
+  },
+  "Rell": {
+    "counters": ["Morgana", "Janna", "Lulu", "Thresh", "Zyra"],
+    "description": "Champions who can disengage from Rell's all-in"
+  },
+  "Renata Glasc": {
+    "counters": ["Pyke", "Blitzcrank", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can lock down Renata before she can use her abilities"
+  },
+  "Renekton": {
+    "counters": ["Quinn", "Vayne", "Gnar", "Kennen", "Jayce"],
+    "description": "Ranged champions who can kite Renekton's engage"
+  },
+  "Rengar": {
+    "counters": ["Lee Sin", "Rammus", "Warwick", "Udyr", "Xin Zhao"],
+    "description": "Duelists who can survive burst and reveal stealth"
+  },
+  "Riven": {
+    "counters": ["Garen", "Renekton", "Poppy", "Malphite", "Quinn"],
+    "description": "Champions who can tank combo and CC Riven"
+  },
+  "Rumble": {
+    "counters": ["Viktor", "Kassadin", "Vladimir", "Malzahar", "Jayce"],
+    "description": "Champions who can avoid Equalizer and outscale"
+  },
+  "Ryze": {
+    "counters": ["Kassadin", "Fizz", "Zed", "Yasuo", "LeBlanc"],
+    "description": "Mobile champions who can dodge skillshots and burst"
+  },
+  "Samira": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Jhin", "Draven"],
+    "description": "Champions with long-range CC and poke"
+  },
+  "Sejuani": {
+    "counters": ["Morgana", "Olaf", "Trundle", "Vi", "Lee Sin"],
+    "description": "Champions who can avoid CC and invade early"
+  },
+  "Senna": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can punish Senna's low mobility"
+  },
+  "Seraphine": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge skillshots and burst"
+  },
+  "Sett": {
+    "counters": ["Vayne", "Quinn", "Kayle", "Teemo", "Gnar"],
+    "description": "Ranged champions who can kite Sett's engage"
+  },
+  "Shaco": {
+    "counters": ["Lee Sin", "Rengar", "Kha'Zix", "Warwick", "Rammus"],
+    "description": "Champions who can reveal stealth and track clone"
+  },
+  "Shen": {
+    "counters": ["Mordekaiser", "Darius", "Illaoi", "Urgot", "Garen"],
+    "description": "Champions who can punish Shen when his ultimate is on cooldown"
+  },
+  "Shyvana": {
+    "counters": ["Lee Sin", "Xin Zhao", "Vi", "Warwick", "Olaf"],
+    "description": "Strong early game junglers who can invade and delay form"
+  },
+  "Singed": {
+    "counters": ["Kayle", "Teemo", "Quinn", "Vayne", "Gnar"],
+    "description": "Ranged champions who can kite and harass"
+  },
+  "Sion": {
+    "counters": ["Fiora", "Darius", "Mordekaiser", "Illaoi", "Garen"],
+    "description": "Champions who can interrupt charge and deal percent health damage"
+  },
+  "Sivir": {
+    "counters": ["Draven", "Kai'Sa", "Tristana", "Lucian", "Vayne"],
+    "description": "Champions who can all-in after spell shield is used"
+  },
+  "Skarner": {
+    "counters": ["Morgana", "Olaf", "Gangplank", "Sivir", "Alistar"],
+    "description": "Champions who can cleanse or prevent Impale"
+  },
+  "Sona": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can punish Sona's squishiness"
+  },
+  "Soraka": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can burst Soraka before she can heal"
+  },
+  "Swain": {
+    "counters": ["Viktor", "Xerath", "Ziggs", "Vel'Koz", "Lux"],
+    "description": "Long-range mages who can avoid pull and poke"
+  },
+  "Sylas": {
+    "counters": ["Kassadin", "Pantheon", "Akali", "LeBlanc", "Fizz"],
+    "description": "Champions with weak ultimates for Sylas to steal"
+  },
+  "Syndra": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge spheres and burst"
+  },
+  "Tahm Kench": {
+    "counters": ["Vayne", "Kayle", "Gnar", "Mordekaiser", "Darius"],
+    "description": "Champions who can kite and deal percent health damage"
+  },
+  "Taliyah": {
+    "counters": ["Fizz", "Katarina", "Yasuo", "Zed", "LeBlanc"],
+    "description": "Mobile champions who can dodge Worked Ground Q"
+  },
+  "Talon": {
+    "counters": ["Diana", "Malzahar", "Lissandra", "Pantheon", "Galio"],
+    "description": "Champions with point-and-click CC and tankiness"
+  },
+  "Taric": {
+    "counters": ["Brand", "Zyra", "Vel'Koz", "Xerath", "Morgana"],
+    "description": "Poke champions who can harass from outside stun range"
+  },
+  "Teemo": {
+    "counters": ["Yorick", "Malphite", "Pantheon", "Jayce", "Cassiopeia"],
+    "description": "Champions who can all-in through blind or outrange"
+  },
+  "Thresh": {
+    "counters": ["Morgana", "Alistar", "Janna", "Lulu", "Zyra"],
+    "description": "Champions who can prevent hooks or save allies"
+  },
+  "Tristana": {
+    "counters": ["Caitlyn", "Draven", "Miss Fortune", "Ashe", "Varus"],
+    "description": "Champions who can punish weak early game"
+  },
+  "Trundle": {
+    "counters": ["Teemo", "Gnar", "Kayle", "Quinn", "Vayne"],
+    "description": "Ranged champions who can kite pillar"
+  },
+  "Tryndamere": {
+    "counters": ["Malphite", "Teemo", "Quinn", "Tahm Kench", "Poppy"],
+    "description": "Champions who can kite through ultimate duration"
+  },
+  "Twisted Fate": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge cards and roam"
+  },
+  "Twitch": {
+    "counters": ["Caitlyn", "Draven", "Miss Fortune", "Ashe", "Varus"],
+    "description": "Champions who can reveal stealth and punish positioning"
+  },
+  "Udyr": {
+    "counters": ["Ashe", "Vayne", "Janna", "Lulu", "Karma"],
+    "description": "Champions who can kite and prevent bear stance engage"
+  },
+  "Urgot": {
+    "counters": ["Mordekaiser", "Darius", "Illaoi", "Fiora", "Garen"],
+    "description": "Champions who can dodge E and win extended trades"
+  },
+  "Varus": {
+    "counters": ["Draven", "Lucian", "Tristana", "Samira", "Kai'Sa"],
+    "description": "Mobile ADCs who can dodge Q and all-in"
+  },
+  "Vayne": {
+    "counters": ["Caitlyn", "Draven", "Miss Fortune", "Ashe", "Varus"],
+    "description": "Champions who can punish weak laning phase"
+  },
+  "Veigar": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge cage and burst"
+  },
+  "Vel'Koz": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge skillshots"
+  },
+  "Vex": {
+    "counters": ["Viktor", "Xerath", "Ziggs", "Lux", "Vel'Koz"],
+    "description": "Champions without dashes who can outrange"
+  },
+  "Vi": {
+    "counters": ["Morgana", "Lee Sin", "Olaf", "Udyr", "Trundle"],
+    "description": "Champions who can avoid or interrupt ultimate"
+  },
+  "Viego": {
+    "counters": ["Lee Sin", "Kha'Zix", "Elise", "Graves", "Nidalee"],
+    "description": "Strong early game junglers who can invade"
+  },
+  "Viktor": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge laser and burst"
+  },
+  "Vladimir": {
+    "counters": ["Kassadin", "Malzahar", "Anivia", "Swain", "Ryze"],
+    "description": "Champions who can punish weak early game"
+  },
+  "Volibear": {
+    "counters": ["Vayne", "Kayle", "Gnar", "Quinn", "Teemo"],
+    "description": "Ranged champions who can kite ultimate"
+  },
+  "Warwick": {
+    "counters": ["Olaf", "Morgana", "Udyr", "Vi", "Lee Sin"],
+    "description": "Champions who can interrupt ultimate or duel"
+  },
+  "Wukong": {
+    "counters": ["Garen", "Darius", "Illaoi", "Mordekaiser", "Renekton"],
+    "description": "Champions who can reveal stealth and win trades"
+  },
+  "Xayah": {
+    "counters": ["Caitlyn", "Draven", "Miss Fortune", "Ashe", "Varus"],
+    "description": "Champions who can outrange and dodge feathers"
+  },
+  "Xerath": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge skillshots and burst"
+  },
+  "Xin Zhao": {
+    "counters": ["Jax", "Lee Sin", "Vi", "Warwick", "Udyr"],
+    "description": "Champions who can duel and scale better"
+  },
+  "Yasuo": {
+    "counters": ["Annie", "Malzahar", "Pantheon", "Renekton", "Diana"],
+    "description": "Champions with point-and-click CC and burst"
+  },
+  "Yone": {
+    "counters": ["Malzahar", "Annie", "Pantheon", "Renekton", "Sett"],
+    "description": "Champions with point-and-click CC and burst"
+  },
+  "Yorick": {
+    "counters": ["Irelia", "Jax", "Tryndamere", "Fiora", "Riven"],
+    "description": "Champions who can clear ghouls and win trades"
+  },
+  "Yuumi": {
+    "counters": ["Leona", "Nautilus", "Blitzcrank", "Thresh", "Pyke"],
+    "description": "Engage supports who can catch Yuumi when detached"
+  },
+  "Zac": {
+    "counters": ["Lee Sin", "Morgana", "Vayne", "Janna", "Poppy"],
+    "description": "Champions who can interrupt engage or deal percent health damage"
+  },
+  "Zed": {
+    "counters": ["Lissandra", "Malzahar", "Diana", "Pantheon", "Galio"],
+    "description": "Champions with point-and-click CC and armor"
+  },
+  "Zeri": {
+    "counters": ["Caitlyn", "Ashe", "Varus", "Jhin", "Xerath"],
+    "description": "Champions who can outrange and CC Zeri"
+  },
+  "Ziggs": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge bombs and burst"
+  },
+  "Zilean": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can lock down before ultimate"
+  },
+  "Zoe": {
+    "counters": ["Fizz", "Zed", "Yasuo", "Katarina", "LeBlanc"],
+    "description": "Mobile assassins who can dodge bubble and burst"
+  },
+  "Zyra": {
+    "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
+    "description": "Engage supports who can burst before plants grow"
+  }
+} 
