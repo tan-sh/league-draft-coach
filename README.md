@@ -1,78 +1,50 @@
 # League Draft Coach
 
-A comprehensive tool designed to assist League of Legends players during the champion draft phase. This application helps players make informed decisions by providing real-time analysis of team compositions, counter picks, and strategic insights.
+A React application to help League of Legends players make better drafting decisions. Try it out at [https://league-draft-coach.netlify.app/](https://league-draft-coach.netlify.app/)
 
 ## Features
 
-### 1. Draft Analysis
-- Real-time team composition overview
-- Physical vs. Magical damage distribution analysis
-- Team power spike indicators (Early, Mid, Late game)
-- Team strength assessment
+- Champion counter analysis
+- Team composition overview
+- Damage profile analysis (Physical vs Magical)
+- Team strength indicators
+- Power spike analysis
+- Real-time draft updates
+- Modern, responsive UI
 
-### 2. Counter Pick System
-- Intelligent counter suggestions for each champion
-- Champion-specific matchup information
-- Role-based counter recommendations
-- Detailed counter explanations
+## Tech Stack
 
-### 3. Team Composition Overview
-- Team synergy analysis
-- Damage profile breakdown
-- Power spike timing visualization
-- Team fighting potential assessment
+- React
+- Vite
+- Data Dragon API
+- Netlify for hosting
 
-## Technology Stack
-- React.js
-- Modern CSS with Flexbox/Grid
-- League of Legends Data Dragon API
+## Local Development
 
-## Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn package manager
-
-### Installation
-1. Clone the repository:
+1. Clone the repository
 ```bash
 git clone https://github.com/tan-sh/league-draft-coach.git
-```
-
-2. Navigate to the project directory:
-```bash
 cd league-draft-coach
 ```
 
-3. Install dependencies:
+2. Install dependencies
 ```bash
 npm install
 ```
 
-4. Start the development server:
+3. Start the development server
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+## Deployment
 
-## Usage
-
-1. During champion select, the application will display:
-   - Counter picks for the enemy team's selections
-   - Team composition analysis
-   - Damage distribution between physical and magical
-   - Power spike timings for both teams
-
-2. Use the insights provided to:
-   - Make informed champion selections
-   - Understand team composition strengths and weaknesses
-   - Plan your team's strategy based on power spikes
-   - Counter enemy picks effectively
+The application is automatically deployed to Netlify on every push to the main branch.
+Visit [https://league-draft-coach.netlify.app/](https://league-draft-coach.netlify.app/) to see the live version.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Feel free to open issues and pull requests for any improvements you'd like to suggest.
 
 ## License
 
