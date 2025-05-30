@@ -642,5 +642,13 @@
   "Zyra": {
     "counters": ["Blitzcrank", "Pyke", "Nautilus", "Leona", "Thresh"],
     "description": "Engage supports who can burst before plants grow"
+  },
+  "Briar": {
+    "counters": ["Jax", "Vayne", "Kayle", "Teemo", "Quinn"],
+    "description": "Champions who can kite Briar's all-in and survive her burst damage"
+  },
+  "Chogath": {
+    "counters": ["Vayne", "Fiora", "Gnar", "Kayle", "Mordekaiser"],
+    "description": "Champions with percent health damage or kiting ability counter Cho'Gath"
   }
 } 

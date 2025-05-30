@@ -53,7 +53,10 @@ const App = () => {
       'MasterYi': 'Master Yi',
       'MissFortune': 'Miss Fortune',
       'LeeSin': 'Lee Sin',
-      'LeBlanc': 'LeBlanc'
+      'LeBlanc': 'LeBlanc',
+      'Chogath': "Cho'Gath",
+      'ChoGath': "Cho'Gath",
+      'Briar': 'Briar'
     };
 
     return redTeamPicks
@@ -69,7 +72,8 @@ const App = () => {
 
         // If not found, try to find a matching special case
         const matchingCase = Object.entries(specialCases).find(([key, value]) => 
-          value.toLowerCase() === champion.toLowerCase()
+          value.toLowerCase() === champion.toLowerCase() ||
+          key.toLowerCase() === champion.toLowerCase()
         );
 
         return {

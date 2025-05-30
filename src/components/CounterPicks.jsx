@@ -28,7 +28,10 @@ const CounterPicks = ({ championName }) => {
     'MasterYi': 'Master Yi',
     'MissFortune': 'Miss Fortune',
     'LeeSin': 'Lee Sin',
-    'LeBlanc': 'LeBlanc'
+    'LeBlanc': 'LeBlanc',
+    'Chogath': "Cho'Gath",
+    'ChoGath': "Cho'Gath",
+    'Briar': 'Briar'
   };
 
   // Try to find the champion in our data structure
@@ -38,21 +41,13 @@ const CounterPicks = ({ championName }) => {
   if (!championData) {
     // First try direct lookup in special cases
     const specialCaseName = Object.entries(specialCases).find(([key, value]) => 
-      value.toLowerCase() === championName.toLowerCase()
+      value.toLowerCase() === championName.toLowerCase() ||
+      key.toLowerCase() === formattedChampName.toLowerCase()
     );
     
     if (specialCaseName) {
-      championData = counterPicksData[specialCaseName[1].replace(/[^a-zA-Z]/g, '')];
-    }
-    
-    // If still not found, try reverse lookup
-    if (!championData) {
-      const reverseLookup = Object.entries(specialCases).find(([key, value]) => 
-        key.toLowerCase() === formattedChampName.toLowerCase()
-      );
-      if (reverseLookup) {
-        championData = counterPicksData[reverseLookup[1].replace(/[^a-zA-Z]/g, '')];
-      }
+      const lookupName = specialCaseName[1].replace(/[^a-zA-Z]/g, '');
+      championData = counterPicksData[lookupName];
     }
   }
 
@@ -78,7 +73,9 @@ const CounterPicks = ({ championName }) => {
       'Master Yi': 'MasterYi',
       'Miss Fortune': 'MissFortune',
       'Lee Sin': 'LeeSin',
-      'LeBlanc': 'Leblanc'
+      'LeBlanc': 'Leblanc',
+      "Cho'Gath": 'Chogath',
+      'Briar': 'Briar'
     };
 
     // Check for exact match in special cases first

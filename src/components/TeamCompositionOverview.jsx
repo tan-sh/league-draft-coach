@@ -22,7 +22,8 @@ const TeamCompositionOverview = ({ blueTeam, redTeam }) => {
       'MasterYi': 'MasterYi',
       'MissFortune': 'MissFortune',
       'LeeSin': 'LeeSin',
-      'LeBlanc': 'Leblanc'
+      'LeBlanc': 'Leblanc',
+      'Chogath': 'Chogath'
     };
 
     // Remove any special characters and spaces first
@@ -75,6 +76,8 @@ const TeamCompositionOverview = ({ blueTeam, redTeam }) => {
     'Jax': { damage: 'mixed', scaling: 'late', role: 'fighter', cc: 2, engage: 3, poke: 1 },
     'Renekton': { damage: 'physical', scaling: 'mid', role: 'fighter', cc: 2, engage: 3, poke: 1 },
     'Wukong': { damage: 'physical', scaling: 'mid', role: 'fighter', cc: 3, engage: 4, poke: 1 },
+    'Briar': { damage: 'physical', scaling: 'mid', role: 'fighter', cc: 2, engage: 4, poke: 1 },
+    'Chogath': { damage: 'magical', scaling: 'late', role: 'tank', cc: 3, engage: 3, poke: 2 },
     
     // Assassins
     'Zed': { damage: 'physical', scaling: 'mid', role: 'assassin', cc: 0, engage: 4, poke: 3 },
