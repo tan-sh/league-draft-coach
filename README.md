@@ -1,12 +1,85 @@
-# React + Vite
+# League Draft Coach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive tool designed to assist League of Legends players during the champion draft phase. This application helps players make informed decisions by providing real-time analysis of team compositions, counter picks, and strategic insights.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Draft Analysis
+- Real-time team composition overview
+- Physical vs. Magical damage distribution analysis
+- Team power spike indicators (Early, Mid, Late game)
+- Team strength assessment
 
-## Expanding the ESLint configuration
+### 2. Counter Pick System
+- Intelligent counter suggestions for each champion
+- Champion-specific matchup information
+- Role-based counter recommendations
+- Detailed counter explanations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Team Composition Overview
+- Team synergy analysis
+- Damage profile breakdown
+- Power spike timing visualization
+- Team fighting potential assessment
+
+## Technology Stack
+- React.js
+- Modern CSS with Flexbox/Grid
+- League of Legends Data Dragon API
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/tan-sh/league-draft-coach.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd league-draft-coach
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Usage
+
+1. During champion select, the application will display:
+   - Counter picks for the enemy team's selections
+   - Team composition analysis
+   - Damage distribution between physical and magical
+   - Power spike timings for both teams
+
+2. Use the insights provided to:
+   - Make informed champion selections
+   - Understand team composition strengths and weaknesses
+   - Plan your team's strategy based on power spikes
+   - Counter enemy picks effectively
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Champion data provided by Riot Games Data Dragon API
+- Counter pick data based on analysis of high-elo matches
+- Community contributions and feedback
